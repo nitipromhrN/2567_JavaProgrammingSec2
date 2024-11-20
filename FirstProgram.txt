@@ -1,0 +1,20 @@
+class FirstProgram
+public class Countdown
+{
+	public static void main(String[] args)
+	{
+	  JOptionPane.showMessageDialog(null,
+	   System.out.println("studentID:2413110038");
+	   System.out.println("studentName:Niti Promhrn");
+	   System.out.println("Topic:First Program");
+	   System.out.println("Date:11/20/2024");
+	   System.out.println("DialogBox");
+	  JOptionPane.showMessageDialog(null,
+		"studentID:241311003"
+		"\nstudentName:Niti Promhrn"
+		"\nTopic:First Program"
+		"\nDate"11/20/2024"
+		"\nDialogBox"
+	}
+}
+
