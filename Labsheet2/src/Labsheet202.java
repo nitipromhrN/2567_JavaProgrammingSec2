@@ -1,6 +1,6 @@
 import java.util.*;
 public class Labsheet202 {
-
+	
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int newNumber = Integer.MIN_VALUE;
@@ -14,7 +14,7 @@ public class Labsheet202 {
 			newNumber = oldNumber;
 		}
 		System.out.println("BYE BYE");
-		scanner.close();
+		Scanner.close();
 	}
-
 }
+
