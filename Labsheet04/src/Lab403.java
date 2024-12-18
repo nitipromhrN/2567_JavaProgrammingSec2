@@ -15,13 +15,20 @@ public class Lab403 {
 		//System.out.println(firstNmae);
 		
 		//to get the middle name
-		System.out.println(abbreviatName(fullName));
+		System.out.println(abbreviatName(fullName) + firstName);
 		
 		input.close();
 	}//end mail() method
 	
 	public static String abbreviatName(String fName) {
+		String initailLetter = "";
 		
-	}
+		for(int i=0; i<fName.length(); i++) {
+			if(fName.charAt(i)==' ') {
+				initailLetter = (initailLetter + fName.charAt(i+1)).toUpperCase();
+			}
+		}//end for
+		return initailLetter;
+	}//end of abbreviatName() methid
 
 }
