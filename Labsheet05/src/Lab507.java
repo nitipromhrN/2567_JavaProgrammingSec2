@@ -7,6 +7,7 @@ public class Lab507 {
 		int number = Integer.parseInt(JOptionPane.showInputDialog(null ,"Input number 1 : "+(i+1));
 		num += number;
 		}
+		int[] 	
 	}
 
 }
