@@ -5,10 +5,12 @@ public class demoCar {
 		System.out.println(car);
 		System.out.println("Update Car Detail:");
 		
-		car setCompanyName("Toyota");
-		System.out.println("Company Name: "+setCompanyName);
-		
-		System.out.println("Model Name: ");
-		System.out.println("Year: ");
+		car.setCompanyName("Toyota");
+		car.setmodelName("Corlla");
+		car.setyear(2015);
+		System.out.println("Update CAr Details:");
+		System.out.println(car);
+			car.setyear(1800);
+			car.setCompanyName("");
 	}
 }
