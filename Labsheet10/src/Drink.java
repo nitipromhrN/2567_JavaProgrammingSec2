@@ -16,13 +16,12 @@ public class Drink {
 		return "1".equals(letter) ? "10" : ("2".equals(letter) ? "20" : " ");
 	}
 	public String getSizeName(String letter) {
-		return "S-s".equals(letter) ? "15" : "M-m".equals(letter) ? "20" : ("L-l".equals(letter) ? "25" : " ");
+		return "S".equals(letter) ? "15" : "M".equals(letter) ? "20" : ("L".equals(letter) ? "25" : " ");
 	}
 	public int getSizePrice(String letter) {
 		return "S-s".equals(letter) ? "15" : "M-m".equals(letter) ? "20" : ("L-l".equals(letter) ? "25" : " ");
 	}
-	public int getTotalPrice() {
-		return getTypePrice() + getSizePrice();
-			
+	public int getTotalPrice(String letter) {
+		return getTypePrice(letter) + getSizePrice(letter);
 	}
 }
