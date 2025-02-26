@@ -1,4 +1,5 @@
 import javax.swing.JOptionPane;
+public class CoffeeshopDemo {
 class Varista {
     private String name;
     private String gender;
@@ -42,8 +43,6 @@ class Koffee {
     }
 }
 
-
-public class CoffeeshopDemo {
     public static void main(String[] args) {
         String drinkType = JOptionPane.showInputDialog("Drink type (Hot/Cold):");
         String coffeeType = JOptionPane.showInputDialog("Coffee type (1: Americano, 2: Espresso, 3: Cappuccino):");
